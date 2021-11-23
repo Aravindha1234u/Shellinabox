@@ -9,10 +9,8 @@ docker run -it --name=shellinabox -p 4200:4200 aravindha1234u/shellinabox
 ```
 
 Environment variables:
-	1. PORT (default: 4200)
-	2. IP (default: 127.0.0.1)
-
-Default Root password: `shellinabox`
+1. PORT (default: 4200)
+2. IP (default: 127.0.0.1)
 
 docker-compose.yml
 ```
