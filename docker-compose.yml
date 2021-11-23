@@ -1,0 +1,11 @@
+version: '3'
+services:
+  shellinabox:
+     image: aravindha1234u/shellinabox
+     container_name: shellinabox
+     restart: always
+     environment:
+        - PORT=4200
+        - IP=192.168.0.105
+     ports:
+        - 4200:4200
